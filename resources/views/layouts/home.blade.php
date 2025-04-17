@@ -36,21 +36,24 @@
                 </div>
 
                 <div class="flex gap-2 sm:gap-2">
-                    @guest
-                    <a href="{{ route('login') }}" class="rounded-full bg-[#BF654B] hover:bg-orange-900 px-5 py-2.5 text-sm font-medium text-white shadow-sm">Login</a>
-                    <a href="{{ route('register') }}" class="rounded-full bg-white px-5 py-2.5 text-sm font-medium text-[#BF654B] hover:bg-gray-100">Register</a>
-                        @else
-                        <div class="sm:flex sm:gap-4">
-                            <span class="text-sm text-gray-500">{{ Auth::user()->name }}</span>
-                            
-                            <form method="POST" action="{{ route('logout') }}">
-                                @csrf
-                                <button type="submit" class="block rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-[#BF654B] transition hover:text-orange-900">
-                                    Logout
-                                </button>
-                            </form>
-                        </div>
-                    @endguest
+                    @if (Route::has('login'))
+                        <nav class="flex items-center justify-end gap-4">
+                            @auth
+                                <a href="{{ url('/dashboard') }}" class="rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-2.5 font-medium text-white hover:bg-orange-900">
+                                    Dashboard
+                                </a>
+                            @else
+                                <a href="{{ route('login') }}" class="rounded-full bg-[#BF654B] px-5 py-2.5 text-sm font-medium text-white hover:bg-orange-900">
+                                    Log in
+                                </a>
+                                @if (Route::has('register'))
+                                    <a href="{{ route('register') }}" class="rounded-full bg-white px-5 py-2.5 text-sm font-medium text-[#BF654B] hover:bg-gray-100">
+                                        Register
+                                    </a>
+                                @endif
+                            @endauth
+                        </nav>
+                    @endif
                 </div>
             </div>
         </div>
