@@ -6,7 +6,7 @@ use App\Http\Controllers\ProdukController;
 
 
 Route::get('/', function () {
-    return view('layouts.home');
+    return view('landing');
 });
 
 Route::get('/produk', [ProdukController::class, 'index']);
