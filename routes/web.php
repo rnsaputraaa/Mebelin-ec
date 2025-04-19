@@ -7,6 +7,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/pemesanan', function () {
+    return view('payment.pemesanan');
+});
+
+Route::get('/pengiriman', function () {
+    return view('payment.pengiriman');
+});
+
+Route::get('/pembayaran', function () {
+    return view('payment.pembayaran');
+});
+Route::get('/konfirmasi', function () {
+    return view('payment.konfirmasi');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
