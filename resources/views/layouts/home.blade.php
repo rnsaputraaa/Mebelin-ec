@@ -12,12 +12,20 @@
 </head>
 
 <body class="font-[Inter]">
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> origin/rama_produk
     <header class="bg-[#CBAF87] fixed top-0 w-full z-50 p-4">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0">
             <div class="flex flex-col md:flex-row items-center gap-4 w-full md:flex-1 md:mx-8">
                 <img src="img/logo.png" alt="Logo Mebelin" class="h-14 w-auto">
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> origin/rama_produk
                 <div class="relative w-full">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                         <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
@@ -27,7 +35,11 @@
                     <input type="text" placeholder="Cari di Mebelin" class="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#BF654B]">
                 </div>
             </div>
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> origin/rama_produk
 
             <div class="flex flex-col md:flex-row items-center gap-4 md:gap-6">
                 <div class="flex gap-4 text-gray-900 text-xl">
@@ -59,6 +71,7 @@
         </div>
     </header>
 
+<<<<<<< HEAD
     <section class="bg-white lg:h-screen lg:flex lg:items-center pt-8 mt-8">
         <div class="container mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -179,6 +192,11 @@
             </div>
         </div>
     </section>
+=======
+    <main>
+        @yield('content')
+    </main>
+>>>>>>> origin/rama_produk
 
     <footer class="bg-white border-t-2 border-gray-300">
         <div class="container mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
@@ -186,12 +204,20 @@
             <div>
               <img src="img/logo.png" alt="Logo Mebelin" class="h-14 w-auto">
             </div>
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> origin/rama_produk
             <div>
               <h1 class="font-bold text-gray-900">Mebelin</h1>
               <p class="mt-6 space-y-4 text-sm text-gray-700">Quality furniture for modern living</p>
             </div>
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> origin/rama_produk
             <div>
               <p class="font-bold text-gray-900">Quick Links</p>
               <ul class="mt-6 space-y-4 text-sm">
@@ -200,7 +226,11 @@
                 <li><a href="#" class="text-gray-700 transition hover:opacity-75">Returns</a></li>
               </ul>
             </div>
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> origin/rama_produk
             <div>
               <p class="font-bold text-gray-900">Customer Services</p>
               <ul class="mt-6 space-y-4 text-sm">
@@ -216,7 +246,14 @@
             <p class="text-xs text-gray-500">&copy; 2025. Mebelin. All rights reserved.</p>
           </div>
         </div>
+<<<<<<< HEAD
     </footer>
 
 </body>
 </html>
+=======
+    </footer>     
+    
+</body>
+</html>
+>>>>>>> origin/rama_produk
