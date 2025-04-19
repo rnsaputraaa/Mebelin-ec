@@ -53,7 +53,7 @@
             <div class="lg:w-2/3">
                 <div class="bg-white p-6 rounded-lg shadow-sm mb-6">
                     <h2 class="text-xl font-bold mb-6">Konfirmasi Pesanan</h2>
-                    
+
                     <!-- Payment Method Info -->
                     <div class="mb-4">
                         <div class="flex items-center p-3 border border-gray-300 rounded-lg">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Address Info -->
                     <div class="mb-6">
                         <label class="block text-sm font-medium text-gray-700 mb-1">Alamat Lengkap</label>
@@ -71,10 +71,10 @@
                             <p class="text-gray-700">Jl. Contoh No. 123, Kecamatan Contoh, Kota Jakarta Selatan, DKI Jakarta, 12345</p>
                         </div>
                     </div>
-                    
+
                     <!-- Order Summary -->
                     <h2 class="text-xl font-bold mb-4">Ringkasan Barang</h2>
-                    
+
                     <!-- Product 1 -->
                     <div class="border border-gray-300 rounded-lg p-4 mb-4">
                         <div class="flex items-center justify-between">
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Product 2 -->
                     <div class="border border-gray-300 rounded-lg p-4 mb-4">
                         <div class="flex items-center justify-between">
@@ -116,7 +116,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Product 3 -->
                     <div class="border border-blue-500 rounded-lg p-4 mb-4">
                         <div class="flex items-center justify-between">
@@ -158,7 +158,7 @@
                         <span class="font-bold">Total:</span>
                         <span class="font-bold">Rp 600.000</span>
                     </div>
-                    
+
                     <button class="w-full bg-[#BF654B] text-white py-3 rounded-lg hover:bg-orange-900 mb-2">
                         Konfirmasi
                     </button>
@@ -166,7 +166,7 @@
                         Kembali
                     </button>
                 </div>
-                
+
                 <!-- Payment Timer -->
                 <div class="bg-white p-6 rounded-lg shadow-sm text-center">
                     <h3 class="font-medium mb-2">Batas waktu pembayaran</h3>
