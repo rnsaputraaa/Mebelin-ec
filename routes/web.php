@@ -2,29 +2,9 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProdukController;
-
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/produk', [ProdukController::class, 'index']);
-
-
-Route::get('/pemesanan', function () {
-    return view('payment.pemesanan');
-});
-
-Route::get('/pengiriman', function () {
-    return view('payment.pengiriman');
-});
-
-Route::get('/pembayaran', function () {
-    return view('payment.pembayaran');
-});
-Route::get('/konfirmasi', function () {
-    return view('payment.konfirmasi');
+    return view('produk.produk');
 });
 
 Route::get('/dashboard', function () {
