@@ -14,7 +14,7 @@ Route::get('/pemesanan', function () {
 Route::get('/pengiriman', function () {
     return view('payment.pengiriman');
 });
-
+                        
 Route::get('/pembayaran', function () {
     return view('payment.pembayaran');
 });
