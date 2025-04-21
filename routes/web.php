@@ -2,10 +2,18 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProdukController;
+
 
 Route::get('/', function () {
-    return view('layouts.home');
+    return view('landing');
 });
+Route::get('produk/detail', function () {
+    return view('produk.detail');
+});
+
+Route::get('/produk', [ProdukController::class, 'index']);
+
 
 Route::get('/pemesanan', function () {
     return view('payment.pemesanan');
@@ -14,7 +22,7 @@ Route::get('/pemesanan', function () {
 Route::get('/pengiriman', function () {
     return view('payment.pengiriman');
 });
-                        
+
 Route::get('/pembayaran', function () {
     return view('payment.pembayaran');
 });

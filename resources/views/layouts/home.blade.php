@@ -12,12 +12,12 @@
 </head>
 
 <body class="font-[Inter]">
-    
+
     <header class="bg-[#CBAF87] fixed top-0 w-full z-50 p-4">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0">
             <div class="flex flex-col md:flex-row items-center gap-4 w-full md:flex-1 md:mx-8">
                 <img src="img/logo.png" alt="Logo Mebelin" class="h-14 w-auto">
-            
+
                 <div class="relative w-full">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-3">
                         <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
@@ -27,7 +27,7 @@
                     <input type="text" placeholder="Cari di Mebelin" class="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#BF654B]">
                 </div>
             </div>
-            
+
 
             <div class="flex flex-col md:flex-row items-center gap-4 md:gap-6">
                 <div class="flex gap-4 text-gray-900 text-xl">
@@ -39,10 +39,10 @@
                     @if (Route::has('login'))
                         <nav class="flex items-center justify-end gap-4">
                             @auth
-                                <form action="{{ route('logout') }}" method="POST"> 
+                                <form action="{{ route('logout') }}" method="POST">
                                     @csrf
                                     <button type="submit" class="rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-2.5 font-medium text-white hover:bg-orange-900">  Logout</button>
-                                       
+
                                     </a>
                                 </form>
                             @else
@@ -69,11 +69,11 @@
                     <h1 class="text-4xl font-bold text-gray-900 sm:text-4xl">
                         Modern Furniture for Modern Living
                     </h1>
-                
+
                     <p class="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">
                         Discover out collection of handcrafted furniture pieces that blend style and comfort
                     </p>
-                
+
                     <div class="mt-4 flex gap-4 sm:mt-6 pt-5">
                         <a class="inline-block rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-orange-900" href="#">Shop Now</a>
                     </div>
@@ -90,7 +90,7 @@
         <div class="container mx-auto px-6 lg:px-16 max-w-7xl mb-8">
             <div class="bg-white rounded-lg p-6 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">Shop by Category</h2>
-                
+
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-6">
                     <a href="" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity">
                         <div class="rounded-lg overflow-hidden shadow-md mb-2 w-full h-24 md:h-32">
@@ -98,28 +98,28 @@
                         </div>
                         <span class="text-sm font-medium">Living Room</span>
                     </a>
-    
+
                     <a href="/category/bedroom" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity">
                         <div class="rounded-lg overflow-hidden shadow-md mb-2 w-full h-24 md:h-32">
                             <img src="img/c2.png" alt="Bedroom" class="w-full h-full object-cover">
                         </div>
                         <span class="text-sm font-medium">Bedroom</span>
                     </a>
-    
+
                     <a href="/category/dining-room" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity">
                         <div class="rounded-lg overflow-hidden shadow-md mb-2 w-full h-24 md:h-32">
                             <img src="img/c3.png" alt="Dining Room" class="w-full h-full object-cover">
                         </div>
                         <span class="text-sm font-medium">Dining Room</span>
                     </a>
-    
+
                     <a href="/category/kitchen" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity">
                         <div class="rounded-lg overflow-hidden shadow-md mb-2 w-full h-24 md:h-32">
                             <img src="img/c4.png" alt="Kitchen" class="w-full h-full object-cover">
                         </div>
                         <span class="text-sm font-medium">Kitchen</span>
                     </a>
-    
+
                     <a href="/category/workspace" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity">
                         <div class="rounded-lg overflow-hidden shadow-md mb-2 w-full h-24 md:h-32">
                             <img src="img/c5.png" alt="Workspace" class="w-full h-full object-cover">
@@ -130,11 +130,11 @@
             </div>
         </div>
     </section>
-    
+
     <section class="py-8 bg-gray-50">
         <div class="container mx-auto px-6 lg:px-16 max-w-7xl mb-8">
             <h2 class="text-2xl font-bold mb-6 mt-8 text-gray-900">Featured Product</h2>
-            
+
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md p-4">
                     <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
@@ -146,7 +146,7 @@
                         Add to Cart
                     </button>
                 </div>
-    
+
                 <div class="bg-white rounded-lg overflow-hidden shadow-md p-4">
                     <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
                         <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
@@ -157,7 +157,7 @@
                         Add to Cart
                     </button>
                 </div>
-    
+
                 <div class="bg-white rounded-lg overflow-hidden shadow-md p-4">
                     <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
                         <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
@@ -168,7 +168,7 @@
                         Add to Cart
                     </button>
                 </div>
-    
+
                 <div class="bg-white rounded-lg overflow-hidden shadow-md p-4">
                     <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
                         <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
@@ -189,12 +189,12 @@
             <div>
               <img src="img/logo.png" alt="Logo Mebelin" class="h-14 w-auto">
             </div>
-      
+
             <div>
               <h1 class="font-bold text-gray-900">Mebelin</h1>
               <p class="mt-6 space-y-4 text-sm text-gray-700">Quality furniture for modern living</p>
             </div>
-      
+
             <div>
               <p class="font-bold text-gray-900">Quick Links</p>
               <ul class="mt-6 space-y-4 text-sm">
@@ -203,7 +203,7 @@
                 <li><a href="#" class="text-gray-700 transition hover:opacity-75">Returns</a></li>
               </ul>
             </div>
-      
+
             <div>
               <p class="font-bold text-gray-900">Customer Services</p>
               <ul class="mt-6 space-y-4 text-sm">
@@ -219,7 +219,7 @@
             <p class="text-xs text-gray-500">&copy; 2025. Mebelin. All rights reserved.</p>
           </div>
         </div>
-    </footer>     
-    
+    </footer>
+
 </body>
 </html>
