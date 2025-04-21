@@ -27,11 +27,8 @@ Route::get('/konfirmasi', function () {
     return view('payment.konfirmasi');
 });
 
-Route::get('/detail', function () {
-    return view('produk.detail');
-});
-Route::get('/dashboard', function () {
-    return view('dashboard');
+Route::get('/home', function () {
+    return view('layouts.home');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
