@@ -32,7 +32,7 @@
         <div class="text-right">
             @if (Route::has('password.request'))
                 <a href="{{ route('password.request') }}" class="text-xs text-white">
-                    Reset Password
+                    Reset Password 
                 </a>
             @endif
         </div>

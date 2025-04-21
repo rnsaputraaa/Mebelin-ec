@@ -39,9 +39,12 @@
                     @if (Route::has('login'))
                         <nav class="flex items-center justify-end gap-4">
                             @auth
-                                <a href="{{ url('/dashboard') }}" class="rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-2.5 font-medium text-white hover:bg-orange-900">
-                                    Dashboard
-                                </a>
+                                <form action="{{ route('logout') }}" method="POST"> 
+                                    @csrf
+                                    <button type="submit" class="rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-2.5 font-medium text-white hover:bg-orange-900">  Logout</button>
+                                       
+                                    </a>
+                                </form>
                             @else
                                 <a href="{{ route('login') }}" class="rounded-full bg-[#BF654B] px-5 py-2.5 text-sm font-medium text-white hover:bg-orange-900">
                                     Log in
@@ -59,7 +62,7 @@
         </div>
     </header>
 
-    <section class="bg-white lg:h-screen lg:flex lg:items-center pt-8 mt-8">
+    <section class="bg-white lg:h-screen lg:flex lg:items-center pt-8 mt-5">
         <div class="container mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div class="max-w-prose text-left">
