@@ -25,7 +25,7 @@
     </div>
 </section>
 
-<section class="py-8 bg-white mb-8 mt-8">
+<section class="py-8 bg-white mb-8 mt-10 pt-10">
     <div class="container mx-auto px-6 lg:px-16 max-w-7xl mb-8">
         <div class="bg-white rounded-lg p-6 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
             <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">Shop by Category</h2>
@@ -74,7 +74,7 @@
     <div class="container mx-auto px-6 lg:px-16 max-w-7xl mb-8">
         <h2 class="text-2xl font-bold mb-6 mt-8 text-gray-900">Featured Product</h2>
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white rounded-lg overflow-hidden shadow-md p-4">
                 <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
                     <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
