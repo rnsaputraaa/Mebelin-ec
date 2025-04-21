@@ -27,6 +27,9 @@ Route::get('/konfirmasi', function () {
     return view('payment.konfirmasi');
 });
 
+Route::get('/detail', function () {
+    return view('produk.detail');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
