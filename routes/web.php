@@ -8,6 +8,9 @@ use App\Http\Controllers\ProdukController;
 Route::get('/', function () {
     return view('landing');
 });
+Route::get('produk/detail', function () {
+    return view('produk.detail');
+});
 
 Route::get('/produk', [ProdukController::class, 'index']);
 
