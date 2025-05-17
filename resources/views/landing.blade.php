@@ -1,7 +1,13 @@
 @extends('layouts.home')
 
 @section('content')
-<section class="bg-white lg:h-screen lg:flex lg:items-center pt-8 mt-8">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-14 mt-14">
+    <div class="max-w-5xl mx-auto">
+        <div class="h-60 rounded-md bg-gray-200 w-full"></div>
+    </div>
+</div>
+
+<section class="bg-white lg:h-screen lg:flex lg:items-center">
     <div class="container mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div class="max-w-prose text-left">
@@ -19,7 +25,7 @@
             </div>
 
             <div class="flex justify-center lg:justify-end">
-                <img src="img/banner.png" alt="Modern Furniture" class="rounded-lg object-cover" />
+                <img src="img/banner.png" alt="Modern Furniture" class="rounded-lg object-cover">
             </div>
         </div>
     </div>
