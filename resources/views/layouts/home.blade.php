@@ -50,17 +50,17 @@
                         <nav class="flex items-center gap-2">
                             @auth
                                 <a href="{{ url('/dashboard') }}"
-                                    class="rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
+                                    class="rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
                                     Dashboard
                                 </a>
                             @else
                                 <a href="{{ route('login') }}"
-                                    class="rounded-full bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
+                                    class="rounded-lg bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
                                     Login
                                 </a>
                                 @if (Route::has('register'))
                                     <a href="{{ route('register') }}"
-                                        class="rounded-full bg-white px-5 py-2 text-sm font-medium text-[#BF654B] hover:bg-gray-100">
+                                        class="rounded-lg bg-white px-5 py-2 text-sm font-medium text-[#BF654B] hover:bg-gray-100">
                                         Daftar
                                     </a>
                                 @endif
@@ -91,17 +91,17 @@
                     <div class="flex justify-center gap-2 mt-2">
                         @auth
                             <a href="{{ url('/dashboard') }}"
-                                class="rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
+                                class="rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
                                 Dashboard
                             </a>
                         @else
                             <a href="{{ route('login') }}"
-                                class="rounded-full bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
+                                class="rounded-lg bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
                                 Login
                             </a>
                             @if (Route::has('register'))
                                 <a href="{{ route('register') }}"
-                                    class="rounded-full bg-white px-5 py-2 text-sm font-medium text-[#BF654B] hover:bg-gray-100">
+                                    class="rounded-lg bg-white px-5 py-2 text-sm font-medium text-[#BF654B] hover:bg-gray-100">
                                     Daftar
                                 </a>
                             @endif

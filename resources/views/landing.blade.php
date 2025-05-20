@@ -4,50 +4,23 @@
 <section class="py-8 bg-white">
     <div class="container mx-auto max-w-screen-xl pt-24">
         <div id="carousel-container" class="relative w-full overflow-hidden rounded-lg">
+
             <div id="carousel-slides" class="flex transition-transform duration-500 ease-in-out">
-
                 <div class="carousel-slide w-full flex-shrink-0">
-                    <div class="relative w-full h-64 md:h-80 lg:h-96 bg-black text-white flex">
-                        <div class="w-1/2 p-6 md:p-10 flex flex-col justify-center">
-                            <div class="flex items-center mb-2">
-                                <h2 class="text-xl md:text-3xl font-bold">New Arrival Day</h2>
-                                <span class="ml-4 px-3 py-1 bg-yellow-500 text-black font-bold text-sm rounded">POCO</span>
-                            </div>
-                            <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-1">POCO C71</h1>
-                            <p class="text-lg md:text-xl font-medium mb-2">#SiPalingCadas</p>
-                            <div class="text-2xl md:text-4xl lg:text-5xl font-bold mb-1">Diskon Rp100rb<span class="text-sm align-top">*</span></div>
-                            <p class="text-xs mt-auto">*S&K Berlaku</p>
-                        </div>
+                    <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96">
+                        <img src="img/banner1.png" alt="Promo Banner 1" class="w-full h-full object-cover">
                     </div>
                 </div>
 
                 <div class="carousel-slide w-full flex-shrink-0">
-                    <div class="relative w-full h-64 md:h-80 lg:h-96 bg-purple-900 text-white flex">
-                        <div class="w-1/2 p-6 md:p-10 flex flex-col justify-center">
-                            <div class="flex items-center mb-2">
-                                <h2 class="text-xl md:text-3xl font-bold">Flash Sale</h2>
-                                <span class="ml-4 px-3 py-1 bg-red-500 text-white font-bold text-sm rounded">HOT</span>
-                            </div>
-                            <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-1">Galaxy S24</h1>
-                            <p class="text-lg md:text-xl font-medium mb-2">#BestDealsEver</p>
-                            <div class="text-2xl md:text-4xl lg:text-5xl font-bold mb-1">Hemat 30%<span class="text-sm align-top">*</span></div>
-                            <p class="text-xs mt-auto">*Selama persediaan masih ada</p>
-                        </div>
+                    <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96">
+                        <img src="img/banner2.jpg" alt="Promo Banner 2" class="w-full h-full object-cover">
                     </div>
                 </div>
 
                 <div class="carousel-slide w-full flex-shrink-0">
-                    <div class="relative w-full h-64 md:h-80 lg:h-96 bg-gradient-to-r from-blue-800 to-blue-600 text-white flex">
-                        <div class="w-1/2 p-6 md:p-10 flex flex-col justify-center">
-                            <div class="flex items-center mb-2">
-                                <h2 class="text-xl md:text-3xl font-bold">Weekend Special</h2>
-                                <span class="ml-4 px-3 py-1 bg-green-500 text-white font-bold text-sm rounded">NEW</span>
-                            </div>
-                            <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-1">iPhone 15</h1>
-                            <p class="text-lg md:text-xl font-medium mb-2">#GrabItNow</p>
-                            <div class="text-2xl md:text-4xl lg:text-5xl font-bold mb-1">Cashback 5%<span class="text-sm align-top">*</span></div>
-                            <p class="text-xs mt-auto">*Untuk pembelian dengan kartu kredit tertentu</p>
-                        </div>
+                    <div class="relative w-full h-48 sm:h-64 md:h-80 lg:h-96">
+                        <img src="img/banner3.jpg" alt="Promo Banner 3" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -85,7 +58,7 @@
                 </p>
             
                 <div class="mt-4 flex gap-4 sm:mt-6 pt-5">
-                    <a class="inline-block rounded-full border border-[#BF654B] bg-[#BF654B] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-orange-900" href="#">Shop Now</a>
+                    <a class="inline-block rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-orange-900" href="#">Shop Now</a>
                 </div>
             </div>
 
@@ -152,8 +125,8 @@
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
                 <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-full">
-                    Add to Cart
+                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
+                    Add to Card
                 </button>
             </div>
 
@@ -163,8 +136,8 @@
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
                 <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-full">
-                    Add to Cart
+                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
+                    Add to Card
                 </button>
             </div>
 
@@ -174,8 +147,8 @@
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
                 <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-full">
-                    Add to Cart
+                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
+                    Add to Card
                 </button>
             </div>
 
@@ -185,20 +158,20 @@
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
                 <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-full">
-                    Add to Cart
+                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
+                    Add to Card
                 </button>
             </div>
         </div>
     </div>
 </section>
 
-<section class="py-8 pb-20 bg-white">
+<section class="py-8 bg-white">
     <div class="container mx-auto px-6 lg:px-16 max-w-7xl">
         <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">Testimoni</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <div class="flex items-center mb-4">
                     <img src="https://i.pravatar.cc/100?img=6" alt="User 1" class="w-12 h-12 rounded-full mr-4">
                     <div>
@@ -215,7 +188,7 @@
                 <p class="text-gray-700">Pelayanan sangat baik dan memuaskan!</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <div class="flex items-center mb-4">
                     <img src="https://i.pravatar.cc/100?img=6" alt="User 2" class="w-12 h-12 rounded-full mr-4">
                     <div>
@@ -232,7 +205,7 @@
                 <p class="text-gray-700">Pelayanan sangat baik dan memuaskan!</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <div class="flex items-center mb-4">
                     <img src="https://i.pravatar.cc/100?img=6" alt="User 3" class="w-12 h-12 rounded-full mr-4">
                     <div>
@@ -249,7 +222,7 @@
                 <p class="text-gray-700">Pelayanan sangat baik dan memuaskan!</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <div class="flex items-center mb-4">
                     <img src="https://i.pravatar.cc/100?img=6" alt="User 4" class="w-12 h-12 rounded-full mr-4">
                     <div>
@@ -266,7 +239,7 @@
                 <p class="text-gray-700">Pelayanan sangat baik dan memuaskan!</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <div class="flex items-center mb-4">
                     <img src="https://i.pravatar.cc/100?img=6" alt="User 5" class="w-12 h-12 rounded-full mr-4">
                     <div>
@@ -283,7 +256,7 @@
                 <p class="text-gray-700">Pelayanan sangat baik dan memuaskan!</p>
             </div>
 
-            <div class="bg-white p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <div class="flex items-center mb-4">
                     <img src="https://i.pravatar.cc/100?img=6" alt="User 6" class="w-12 h-12 rounded-full mr-4">
                     <div>
@@ -299,6 +272,127 @@
                 </div>
                 <p class="text-gray-700">Pelayanan sangat baik dan memuaskan!</p>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-8 bg-white">
+    <div class="container mx-auto px-6 lg:px-16 max-w-7xl">
+        <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">(FAQ's) Pertanyaan yang sering diajukan</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Bagaimana cara memesan produk di Mebelin?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Cukup pilih produk yang Anda inginkan, klik "Add to Card", lalu lanjutkan ke proses Checkout. Ikuti langkah-langkah pembayaran yang tersedia
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Apakah produk yang dijual di Mebelin ready stock?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Sebagian besar produk kami ready stock. Namun, beberapa produk custom membutuhkan waktu produksi tambahan. Informasi ketersediaan akan tertera di halaman produk
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Berapa lama estimasi pengiriman?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                     2-5 hari kerja
+                     5-14 hari kerja Untuk produk custom, waktu pengiriman dihitung setelah proses produksi selesai.
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium"> Apakah saya bisa request custom ukuran atau warna?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Ya, Mebelin menerima custom order untuk ukuran dan warna tertentu. Silakan hubungi tim customer service kami untuk konsultasi lebih lanjut.
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Metode pembayaran apa saja yang tersedia?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Transfer Bank (BCA, BRI, Mandiri, BNI)
+                    E-Wallet (Gopay, OVO, DANA,)
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Apakah ada garansi untuk produk yang dibeli?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Ya, kami memberikan garansi 3 Bulan untuk kerusakan pabrikasi pada sebagian besar produk kami. Syarat dan ketentuan berlaku.
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Bagaimana prosedur retur atau penukaran barang?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Jika Anda menerima produk dalam kondisi rusak atau tidak sesuai, silakan hubungi kami dalam waktu maksimal 3 hari setelah barang diterima. Tim kami akan membantu proses retur atau penggantian.
+                </p>
+            </details>
+
+            <details class="group [&_summary::-webkit-details-marker]:hidden mb-5">
+                <summary class="flex items-center justify-between gap-1.5 rounded-md border border-gray-100 bg-gray-50 p-4 text-gray-900">
+                    <h2 class="text-lg font-medium">Apakah ada layanan instalasi/pemasangan furniture?</h2>
+                    <svg class="size-5 shrink-0 transition-transform duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <p class="px-4 pt-4 text-gray-900">
+                    Untuk area tertentu seperti pamekasan, kami menyediakan layanan instalasi dengan biaya tambahan. Info lengkap dapat ditanyakan ke customer service.
+                </p>
+            </details>
         </div>
     </div>
 </section>
@@ -319,21 +413,27 @@
 
         function initCarousel() {
             container.style.width = '100%';
+
             slideElements.forEach(slide => {
                 slide.style.width = `${slideWidth}px`;
             });
+
             slides.style.width = `${slideWidth * slideCount}px`;
 
             goToSlide(currentIndex, false);
         }
+
         updateActiveDot();
 
         function updateSlideWidth() {
             slideWidth = container.clientWidth;
+
             slideElements.forEach(slide => {
                 slide.style.width = `${slideWidth}px`;
             });
+
             slides.style.width = `${slideWidth * slideCount}px`;
+
             goToSlide(currentIndex, false);
         }
 
@@ -353,6 +453,7 @@
             if (!animate) {
                 slides.style.transition = 'none';
                 slides.style.transform = `translateX(${offset}px)`;
+                // Force reflow
                 slides.offsetHeight;
                 slides.style.transition = 'transform 500ms ease-in-out';
             } else {
@@ -416,10 +517,8 @@
         function handleSwipe() {
             const threshold = 50;
             if (touchEndX < touchStartX - threshold) {
-                // Swipe left
                 goToSlide(currentIndex + 1);
             } else if (touchEndX > touchStartX + threshold) {
-                // Swipe right
                 goToSlide(currentIndex - 1);
             }
         }
