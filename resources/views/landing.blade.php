@@ -2,7 +2,7 @@
 
 @section('content')
 <section class="py-8 bg-white">
-    <div class="container mx-auto max-w-screen-xl pt-24">
+    <div class="container mx-auto px-6 lg:px-16 max-w-7xl pt-24">
         <div id="carousel-container" class="relative w-full overflow-hidden rounded-lg">
 
             <div id="carousel-slides" class="flex transition-transform duration-500 ease-in-out">
@@ -393,6 +393,81 @@
                     Untuk area tertentu seperti pamekasan, kami menyediakan layanan instalasi dengan biaya tambahan. Info lengkap dapat ditanyakan ke customer service.
                 </p>
             </details>
+        </div>
+    </div>
+</section>
+
+<section class="py-8 bg-white">
+    <div class="container mx-auto px-6 lg:px-16 max-w-7xl mb-10">
+        <div class="flex flex-col md:flex-row gap-12">
+            <div class="md:w-1/2">
+                <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">Tentang Kami</h2>
+                <p class="text-gray-700 mb-4 text-justify">
+                    Mebelin adalah e-commerce mebel yang didedikasikan untuk menghadirkan keindahan dan kenyamanan ke dalam setiap rumah.
+                    Dengan perpaduan antara desain tradisional dan sentuhan modern, kami menciptakan furnitur berkualitas tinggi yang menjadi bagian dari cerita hidup Anda.
+                </p>
+                <p class="text-gray-700 mb-6 text-justify">
+                    Berawal dari sebuah bengkel kecil, Mebelin kini telah berkembang menjadi destinasi utama bagi mereka yang mencari furnitur berkualitas dengan harga terjangkau.
+                    Kami memahami bahwa setiap perabot bukan hanya sekadar benda fungsional, tetapi juga cerminan dari kepribadian dan gaya hidup Anda.
+                </p>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-[#BF654B] p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="font-medium">Kualitas Premium</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-[#BF654B] p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="font-medium">Desain Modern</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-[#BF654B] p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="font-medium">Pengiriman Cepat</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-[#BF654B] p-3 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="font-medium">Bergaransi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:w-1/2">
+                <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">Kenapa Mebelin?</h2>
+                <ul class="space-y-4 text-gray-700 text-justify list-disc pl-5">
+                    <li>
+                        <strong>Pengrajin dan Desainer Profesional</strong><br>
+                        Tim kami terdiri dari para pengrajin berpengalaman dan desainer kreatif yang bersama-sama untuk menciptakan karya terbaik.
+                    </li>
+                    <li>
+                        <strong>Kualitas Produk yang Terjamin</strong><br>
+                        Setiap produk dibuat dengan ketelitian dan cinta, menghasilkan furnitur yang tidak hanya indah dipandang, tetapi juga kuat dan tahan lama.
+                    </li>
+                    <li>
+                        <strong>Proses Belanja yang Mudah dan Aman</strong><br>
+                        Mulai dari pemilihan bahan baku berkualitas hingga pengiriman ke rumah Anda, kami memastikan setiap detail diperhatikan dengan seksama untuk memberikan pengalaman belanja yang memuaskan.
+                    </li>
+                    <li>
+                        <strong>Harga Terjangkau</strong><br>
+                        Kami menawarkan produk berkualitas tinggi dengan harga yang tetap ramah di kantong, karena setiap rumah berhak mendapatkan furnitur terbaik.
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
