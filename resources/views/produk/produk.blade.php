@@ -11,7 +11,7 @@
 
     <div class="flex flex-col md:flex-row gap-4">
         <div id="filter-menu" class="hidden md:block md:w-60 lg:w-72 flex-shrink-0">
-            <div class="bg-white rounded-lg shadow-md border border-gray-200 p-4 mb-4">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <h2 class="font-bold mb-2">Kategori</h2>
                 <ul class="space-y-2">
                     <li class="py-1">Ruang Tamu</li>
@@ -24,7 +24,7 @@
                 </ul>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md border border-gray-200 p-4 mb-4">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <h2 class="font-bold mb-2">Gaya Desain</h2>
                 <ul class="space-y-2">
                     <li class="py-1">Minimalis</li>
@@ -36,7 +36,7 @@
                 </ul>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md border border-gray-200 p-4">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <h2 class="font-bold mb-2">Bahan</h2>
                 <ul class="space-y-2">
                     <li class="py-1">Kayu Solid</li>
@@ -48,7 +48,7 @@
                 </ul>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md border border-gray-200 p-4 mt-4 mb-4">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                 <h2 class="font-bold mb-2">Harga</h2>
                 <form class="space-y-2">
                     <label class="flex items-center space-x-2">
@@ -82,7 +82,7 @@
         <div class="flex-1">
             <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 md:gap-4">
 
-                <div class="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-md p-4">
+                <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                     <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
                         <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
                     </div>
@@ -93,7 +93,29 @@
                     </button>
                 </div>
 
-                <div class="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-md p-4">
+                <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
+                    <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
+                        <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
+                    </div>
+                    <h3 class="font-medium mb-2">Modern Sofa</h3>
+                    <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
+                    <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-full">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
+                    <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
+                        <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
+                    </div>
+                    <h3 class="font-medium mb-2">Modern Sofa</h3>
+                    <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
+                    <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-full">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
                     <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
                         <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
                     </div>
