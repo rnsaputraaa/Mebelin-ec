@@ -119,47 +119,71 @@
         <h2 class="text-2xl font-bold mb-6 mt-6 text-gray-900">Produk Pilihan</h2>
         
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white rounded-lg overflow-hidden shadow-md p-4" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
-                <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
+                <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
                     <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
-                <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
+                <p class="font-bold text-gray-900 mb-2">Rp 200.000</p>
+                <div class="flex items-center mb-4">
+                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <span class="text-sm text-gray-600 ml-1">4.8</span>
+                </div>
                 <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Card
+                    Add to Cart
                 </button>
             </div>
 
-            <div class="bg-white rounded-lg overflow-hidden shadow-md p-4" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
-                <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
+                <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
                     <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
-                <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
+                <p class="font-bold text-gray-900 mb-2">Rp 200.000</p>
+                <div class="flex items-center mb-4">
+                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <span class="text-sm text-gray-600 ml-1">4.8</span>
+                </div>
                 <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Card
+                    Add to Cart
                 </button>
             </div>
 
-            <div class="bg-white rounded-lg overflow-hidden shadow-md p-4" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
-                <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
+                <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
                     <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
-                <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
+                <p class="font-bold text-gray-900 mb-2">Rp 200.000</p>
+                <div class="flex items-center mb-4">
+                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <span class="text-sm text-gray-600 ml-1">4.8</span>
+                </div>
                 <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Card
+                    Add to Cart
                 </button>
             </div>
 
-            <div class="bg-white rounded-lg overflow-hidden shadow-md p-4" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
-                <div class="bg-gray-100 rounded-md p-6 mb-4 flex justify-center items-center">
+            <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
+                <div class="bg-gray-100 rounded-md p-6 flex justify-center items-center">
                     <img src="img/produk.png" alt="Modern Sofa" class="h-36 object-contain">
                 </div>
                 <h3 class="font-medium mb-2">Modern Sofa</h3>
-                <p class="font-bold text-gray-900 mb-4">Rp 200.000</p>
+                <p class="font-bold text-gray-900 mb-2">Rp 200.000</p>
+                <div class="flex items-center mb-4">
+                    <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <span class="text-sm text-gray-600 ml-1">4.8</span>
+                </div>
                 <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Card
+                    Add to Cart
                 </button>
             </div>
         </div>
