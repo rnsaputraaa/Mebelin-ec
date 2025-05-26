@@ -1,15 +1,17 @@
 <x-app-layout>
     <x-slot name="header">
         <div class="flex items-center">
-            <a href="#" class="mr-4">
+            <a href="{{ url('/') }}" class="mr-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600">
                     <path d="M19 12H5M12 19l-7-7 7-7"/>
                 </svg>
             </a>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                MEBELIN
-            </h2>
-        </div>
+            <div class="flex items-center gap-2">
+                    <img src="img/logo.png" alt="Logo Mebelin" class="h-10 w-auto">
+                    <span class="text-xl font-bold">x</span>
+                    <img src="img/unira.png" alt="Logo Kolaborasi" class="h-10 w-auto">
+                </div>
+            </div>
     </x-slot>
 
     <div class="py-6">
@@ -94,8 +96,12 @@
                             </div>
                             
                             <div class="md:col-span-2">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Jenis Kelamin</label>
-                                <input type="text" class="w-full border border-gray-300 rounded px-3 py-2">
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Pilih Jenis Kelamin</label>
+                                <select class="w-full border border-gray-300 rounded px-3 py-2" name="jenis_kelamin" required>
+                                    <option value="" disabled selected hidden>-- Pilih --</option>
+                                    <option value="Laki-laki">Laki-laki</option>
+                                    <option value="Perempuan">Perempuan</option>
+                                </select>
                             </div>
                             
                             <div class="md:col-span-2 flex justify-end gap-4 mt-4">
