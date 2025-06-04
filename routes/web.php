@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('produk.produk');
 });
 
+Route::get('/detail', function () {
+    return view('produk.detail-produk');
+})->name('detail-produk');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
