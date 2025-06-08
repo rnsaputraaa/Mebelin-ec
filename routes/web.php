@@ -7,6 +7,18 @@ Route::get('/', function () {
     return view('landing');
 });
 
+Route::get('/produk', function () {
+    return view('produk.produk');
+})->name('produk');
+
+Route::get('/detail', function () {
+    return view('produk.detail-produk');
+})->name('detail-produk');
+
+Route::get('/pesanan', function () {
+    return view('payment.pemesanan');
+})->name('pemesanan');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

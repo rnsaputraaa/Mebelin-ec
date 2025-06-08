@@ -23,33 +23,36 @@
                         <div class="font-medium">Mebelin User</div>
                         
                         <div class="w-full mt-4">
-                            <div class="bg-[#BF654B] text-center py-2 px-4 rounded text-white font-medium mb-2">
+                            <a href="{{ route('profile.edit') }}" class="block bg-[#BF654B] text-center py-2 px-4 rounded text-white font-medium mb-2">
                                 Profil Saya
-                            </div>
-                            
-                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer">
+                            </a>
+
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100">
                                 Pesanan Saya
-                            </div>
-                            
-                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer">
+                            </a>
+
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100">
                                 Favorit
-                            </div>
-                            
-                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer">
+                            </a>
+
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100">
                                 Alamat
-                            </div>
-                            
-                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer">
+                            </a>
+
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100">
                                 Ulasan Produk
-                            </div>
-                            
-                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer">
+                            </a>
+
+                            <a href="#" class="block py-2 px-4 hover:bg-gray-100">
                                 Pengaturan
-                            </div>
-                            
-                            <div class="py-2 px-4 hover:bg-gray-100 cursor-pointer">
-                                Keluar
-                            </div>
+                            </a>
+
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <button type="submit" class="block w-full text-left py-2 px-4 hover:bg-gray-100 text-red-600">
+                                    Keluar
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="img/logo1.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @vite('resources/css/app.css')
 </head>
 
@@ -42,18 +43,18 @@
 
                 <div class="hidden md:flex items-center gap-6">
                     <div class="flex gap-4 text-gray-900 text-xl">
-                        <a href="#" class="hover:text-[#BF654B]"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#" class="hover:text-[#BF654B]"><i class="fas fa-user-circle"></i></a>
+                        @auth
+                            <a href="{{ route('pemesanan') }}" class="hover:text-[#BF654B]"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="{{ url('/dashboard') }}" class="hover:text-[#BF654B]"><i class="fas fa-user-circle"></i></a>
+                        @else
+                            <a href="#" onclick="return showLoginAlert(event)" class="hover:text-[#BF654B]"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" onclick="return showLoginAlert(event)" class="hover:text-[#BF654B]"><i class="fas fa-user-circle"></i></a>
+                        @endauth
                     </div>
 
-                    @if (Route::has('login'))
-                        <nav class="flex items-center gap-2">
-                            @auth
-                                <a href="{{ url('/dashboard') }}"
-                                    class="rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
-                                    Dashboard
-                                </a>
-                            @else
+                    @guest
+                        @if (Route::has('login'))
+                            <nav class="flex items-center gap-2">
                                 <a href="{{ route('login') }}"
                                     class="rounded-lg bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
                                     Login
@@ -64,9 +65,9 @@
                                         Daftar
                                     </a>
                                 @endif
-                            @endauth
-                        </nav>
-                    @endif
+                            </nav>
+                        @endif
+                    @endguest
                 </div>
             </div>
 
@@ -84,17 +85,25 @@
                     </div>
 
                     <div class="flex gap-4 text-xl justify-center">
-                        <a href="#" class="hover:text-[#BF654B]"><i class="fas fa-shopping-cart"></i></a>
-                        <a href="#" class="hover:text-[#BF654B]"><i class="fas fa-user-circle"></i></a>
+                        @auth
+                            <a href="{{ route('pemesanan') }}" class="hover:text-[#BF654B]">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                            <a href="{{ url('/dashboard') }}" class="hover:text-[#BF654B]">
+                                <i class="fas fa-user-circle"></i>
+                            </a>
+                        @else
+                            <a href="#" onclick="return showLoginAlert(event)" class="hover:text-[#BF654B]">
+                                <i class="fas fa-shopping-cart"></i>
+                            </a>
+                            <a href="#" onclick="return showLoginAlert(event)" class="hover:text-[#BF654B]">
+                                <i class="fas fa-user-circle"></i>
+                            </a>
+                        @endauth
                     </div>
 
                     <div class="flex justify-center gap-2 mt-2">
-                        @auth
-                            <a href="{{ url('/dashboard') }}"
-                                class="rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
-                                Dashboard
-                            </a>
-                        @else
+                        @guest
                             <a href="{{ route('login') }}"
                                 class="rounded-lg bg-[#BF654B] px-5 py-2 text-sm font-medium text-white hover:bg-orange-900">
                                 Login
@@ -105,7 +114,7 @@
                                     Daftar
                                 </a>
                             @endif
-                        @endauth
+                        @endguest
                     </div>
                 </div>
             </div>
@@ -184,6 +193,25 @@
             menu.classList.toggle('hidden');
         });
     </script>
-    
+
+    <script>
+        function showLoginAlert(event) {
+            event.preventDefault();
+            Swal.fire({
+                icon: 'warning',
+                title: 'Akses Ditolak',
+                text: 'login dulu untuk mengakses fitur ini',
+                confirmButtonColor: '#BF654B',
+                confirmButtonText: 'Login',
+                showCancelButton: true,
+                cancelButtonText: 'Batal',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "{{ route('login') }}";
+                }
+            });
+        }
+    </script>
+
 </body>
 </html>

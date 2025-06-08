@@ -58,7 +58,7 @@
                 </p>
             
                 <div class="mt-4 flex gap-4 sm:mt-6 pt-5">
-                    <a class="inline-block rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-orange-900" href="#">Shop Now</a>
+                    <a href="{{ route('produk') }}" class="inline-block rounded-lg border border-[#BF654B] bg-[#BF654B] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-orange-900">Shop Now</a>
                 </div>
             </div>
 
@@ -131,9 +131,17 @@
                     </svg>
                     <span class="text-sm text-gray-600 ml-1">4.8</span>
                 </div>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Cart
-                </button>
+                @auth
+                    <a href="{{ route('detail-produk') }}" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @else
+                    <a href="#" onclick="return showLoginAlert(event)" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @endauth
             </div>
 
             <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
@@ -148,9 +156,17 @@
                     </svg>
                     <span class="text-sm text-gray-600 ml-1">4.8</span>
                 </div>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Cart
-                </button>
+                @auth
+                    <a href="{{ route('detail-produk') }}" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @else
+                    <a href="#" onclick="return showLoginAlert(event)" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @endauth
             </div>
 
             <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
@@ -165,9 +181,17 @@
                     </svg>
                     <span class="text-sm text-gray-600 ml-1">4.8</span>
                 </div>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Cart
-                </button>
+                @auth
+                    <a href="{{ route('detail-produk') }}" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @else
+                    <a href="#" onclick="return showLoginAlert(event)" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @endauth
             </div>
 
             <div class="bg-white rounded-lg p-6 mb-4 shadow md" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);">
@@ -182,9 +206,17 @@
                     </svg>
                     <span class="text-sm text-gray-600 ml-1">4.8</span>
                 </div>
-                <button class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg">
-                    Add to Cart
-                </button>
+                @auth
+                    <a href="{{ route('detail-produk') }}" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @else
+                    <a href="#" onclick="return showLoginAlert(event)" 
+                    class="w-full bg-[#BF654B] hover:bg-orange-900 text-white py-2 px-4 rounded-lg text-center block">
+                        Add to Cart
+                    </a>
+                @endauth
             </div>
         </div>
     </div>
