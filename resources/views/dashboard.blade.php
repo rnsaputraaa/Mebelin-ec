@@ -108,7 +108,7 @@
                             </div>
                             
                             <div class="md:col-span-2 flex justify-end gap-4 mt-4">
-                                <button type="button" class="bg-white border border-gray-300 text-gray-700 py-2 px-6 rounded hover:bg-gray-50">
+                                <button type="button" class="bg-white border border-gray-500 text-gray-700 py-2 px-6 rounded hover:bg-gray-100">
                                     Batal
                                 </button>
                                 <button type="button" class="bg-[#BF654B] text-white py-2 px-6 rounded hover:bg-orange-900">
