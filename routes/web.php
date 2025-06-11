@@ -19,6 +19,18 @@ Route::get('/pesanan', function () {
     return view('payment.pemesanan');
 })->name('pemesanan');
 
+Route::get('/kirim', function () {
+    return view('payment.pengiriman');
+})->name('pengiriman');
+
+Route::get('/bayar', function () {
+    return view('payment.pembayaran');
+})->name('pembayaran');
+
+Route::get('/konfirmasi', function () {
+    return view('payment.konfirmasi');
+})->name('konfirmasi');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
