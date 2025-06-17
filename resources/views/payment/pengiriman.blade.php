@@ -24,7 +24,7 @@
                 </li>
 
                 <li class="flex items-center gap-2 bg-gray-100 p-2">
-                    <span class="size-12 rounded-full bg-gray-200 text-center text-[12px]/10 font-bold text-gray-900"> 3
+                    <span class="size-12 rounded-full bg-gray-200 text-center text-[12px]/10 font-bold text-gray-900"> 4
                     </span>
                     <span class="hidden sm:block"> Konfirmasi </span>
                 </li>
