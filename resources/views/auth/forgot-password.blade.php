@@ -22,9 +22,6 @@
         <div
             class="bg-white rounded-xl sm:rounded-2xl shadow-xl border border-gray-100 p-6 sm:p-8 lg:p-10 backdrop-blur-sm">
             <div class="text-center mb-6 sm:mb-8">
-                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-                    Lupa Password?
-                </h2>
                 <p class="text-gray-600 text-xs sm:text-sm lg:text-base leading-relaxed px-2 sm:px-0">
                     {{ __('Lupa kata sandi Anda? Tidak masalah. Cukup beri tahu kami alamat email Anda dan kami akan mengirimkan tautan pengaturan ulang kata sandi melalui email yang memungkinkan Anda memilih kata sandi baru.') }}
                 </p>
