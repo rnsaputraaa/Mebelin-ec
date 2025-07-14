@@ -62,7 +62,7 @@
 
                 <div class="pt-2 sm:pt-4">
                     <button type="submit"
-                        class="w-full flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 lg:py-4 bg-orange-900 hover:bg-[#BF654B] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-orange-900 focus:ring-offset-2 text-sm sm:text-base">
+                        class="w-full flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 lg:py-4 bg-orange-900 hover:bg-[#BF654B] text-white font-semibold rounded-lg shadow-lg">
                         {{ __('Email Password Reset Link') }}
                     </button>
                 </div>
